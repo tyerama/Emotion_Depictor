@@ -1,0 +1,73 @@
+Slide-1
+Hello everyone! Today, we're here to talk about our project called EMODEPICTOR. It's all about understanding emotions from audio. I'm Tarun, and with me are Soumya and Vineeth from Group 6. Let's dive into how we're exploring the world of emotions through sound.
+
+Slide-2
+Alright, let's see what's coming up. We'll start by introducing our project. Then, we'll check out the data we used. After that, we'll talk about the different models we used. Next, we'll see what we found in the data. Then, we'll wrap it up with our conclusions. Lastly, we'll discuss the challenges we faced.
+
+Slide-3
+We are going set the stage for our exploration into EMODEPICTOR.
+
+Slide-4
+What’s SER and Why Does It Matter?
+
+Background:
+
+Think about how people used to talk ages ago. They couldn't send texts or emails, so they relied on their voices. Even though we can talk to anyone in the world today, our digital talks sometimes feel a bit cold. We want our devices to understand how we feel when we talk to them. That's where SER comes in – it tries to make our machines get what we're feeling. And guess what's helping? Smart tools like RNNs, SVMs, and CNNs!
+Introduction to SER:
+
+Now, let's talk about why SER is a big deal. Have you ever wanted your computer or phone to know when you're happy, sad, or just okay? That's what SER does – it helps our devices understand our feelings. Thanks to cool technology, we can explore the emotions hidden in our voices. SER sits at the cool intersection of how we talk, what we think, and computer science magic.
+SER's Nuances:
+
+But how does it work? It goes beyond just writing down what we say. It looks at the tiny details in our voices – how fast we talk, when we pause, and even how our tone changes. Imagine it like this: SER tries to create a clear picture of how we're feeling, just by listening to our voices.
+
+
+Slide-5
+Project Objectives:
+We set out to do something cool with our project. We wanted to introduce you to three special models: RNN, SVM, and CNN. These are like the superheroes of our project – Recurrent Neural Networks, Support Vector Machines, and Convolutional Neural Networks.
+
+Models Used:
+RNN (Recurrent Neural Networks): This one is great at understanding things that happen in order, like our emotions changing over time.
+SVM (Support Vector Machines): Think of this as a problem solver. It's excellent at figuring out complicated puzzles with lots of pieces.
+CNN (Convolutional Neural Networks): Imagine this as your super intelligent friend. It's fantastic at finding hidden patterns, like the emotions in our voices.
+
+Strengths of Each Model:
+RNN: Understands the order of things, like the storyline of our feelings.
+SVM: Solves complex problems, perfect for understanding tricky emotions.
+CNN: A master at spotting hidden patterns, just like finding emotions in our voices.
+
+Project Aim:
+Why did we bring these models together? We wanted to find out which one is the absolute best at recognizing emotions when we talk.
+
+Slide-6
+Taking a look at the foundation of our project, the data we've gathered and its key characteristics.
+
+Slide-7
+Our data playground is Kaggle, where we found the RAVDESS dataset—a collection of over 1,400 audio clips generously contributed by 24 skilled actors. This diverse dataset covers a spectrum of emotions, from neutral to surprised, each uniquely identified by a 7-part number. The actors provided crucial features like pitch, intensity, and spectrogram data, enabling our models to decipher the intricacies of vocal expressions. It's like having a rich palette of emotions, each voice with its own ID card, making our exploration into emotional nuances both exciting and comprehensive.
+
+This is the bar graph showing the distribution of emotions in the dataset.
+
+Now,my friend Vineeth will continue
+
+Slide-8:
+
+Now we talk about the heart of our project – the different models we've employed for speech emotion recognition.
+
+Slide-9:
+Our project embarks on a journey to understand and recognize emotions in speech. We start by connecting to Google Drive for secure data storage. The audio visualization step helps us explore the intricacies of sound through visual representations. Using the RAVDESS dataset, which contains over 1,400 audio clips contributed by 24 actors, we lay the groundwork for our models. We then visualize the distribution of emotions within the dataset, gaining valuable insights.
+
+Moving on, we dive into Mel-Frequency Cepstral Coefficients (MFCCs) to extract essential features from the audio clips. This step unveils unique characteristics that are crucial for our models. The subsequent stages involve training our models—Recurrent Neural Networks (RNN), Support Vector Machines (SVM), and Convolutional Neural Networks (CNN)—teaching them to understand the emotional nuances present in speech. We carefully compare these models to find the one that excels in recognizing emotions from spoken words. In the final step, we present our findings, revealing the model that best captures the emotional essence of speech.
+
+Slide-10:
+In our project, we've strategically chosen three distinct models to analyze emotions in speech – the Convolutional Neural Network (CNN), Recurrent Neural Network (RNN), and Support Vector Machine (SVM).
+
+The Convolutional Neural Network (CNN) operates as a deep learning model specifically crafted for recognizing intricate patterns within data. Its specialization in extracting features from spectrogram data aligns with the nuanced characteristics of emotional expression in audio.
+
+The Recurrent Neural Network (RNN) excels in processing sequential data, making it particularly adept at capturing temporal dependencies. This model is well-suited for analyzing emotional nuances that unfold over time in spoken language.
+
+The Support Vector Machine (SVM), a robust machine learning algorithm, thrives in high-dimensional feature spaces. Renowned for its effectiveness in binary and multiclass classification tasks, SVM is an established tool in pattern recognition, making it fitting for the nuanced task of emotion classification in our project.
+
+In employing this diverse set of models, we aim to leverage their unique strengths to comprehensively understand and interpret emotional expressions embedded in speech data.
+
+Now, my friend Soumya will continue
+
+

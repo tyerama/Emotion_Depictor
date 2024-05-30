@@ -1,0 +1,33 @@
+MFCC (Mel Frequency Cepstral Coefficients):
+MFCC is a set of numbers that represents the sound characteristics of a piece of audio.
+It captures aspects of the sound that are important for human hearing. It does this by analyzing the power of different frequency components in the audio signal.Think of it as a way for a computer to understand the unique features of different sounds.
+
+Mel Spectrogram Frequency (Mel):
+Mel is a unit of measurement on a scale that mimics how humans perceive pitch. It's computed using the Mel scale, which is designed to reflect the way our ears perceive differences in pitch. This is important for making sure that the pitch of sounds is measured in a way that aligns with how we actually hear them.It's crucial for tasks like music analysis and speech processing.
+
+Chroma:
+Chroma is a way to represent pitch notes in a way that's independent of the octave they're in.It analyzes the spectral content and pitch profiles of audio signals to identify musical notes, regardless of whether they are in a high or low octave.It's useful for tasks like voice transcription or recognizing voice patterns. It allows a system to recognize the same voice0 note played in different octaves or scales.
+
+In simpler terms, these concepts are all about helping computers understand and work with audio in a way that is similar to how humans perceive and interpret sound. They play a crucial role in applications ranging from speech recognition to music analysis.
+
+Structure of an MLP
+
+An MLP has three layers:
+
+Input layer: This layer receives the input data to the network.
+Hidden layer: This layer is responsible for learning the complex relationships between the input data and the output data.
+Output layer: This layer produces the network's prediction.
+Workflow of an MLP
+
+The workflow of an MLP can be summarized as follows:
+
+The input data is fed into the input layer.
+The input data is propagated through the hidden layer(s), where it is processed and transformed.
+The output of the hidden layer(s) is fed into the output layer, where it is processed to produce the network's prediction.
+
+Example
+
+Imagine that we are training an MLP to classify handwritten digits. The input layer of the MLP would receive a 28x28 pixel image of a handwritten digit. The hidden layer(s) would learn to extract features from the image, such as the presence of straight lines, curved lines, and loops. The output layer would produce a 10-dimensional vector, where each element of the vector represents the probability that the input image is a specific digit (0-9).
+
+RNN : By the name itself it's a recurrent neural network which iterates or loops over a node. Suppose if there's a node and it recieves some input, it would process the input to produce an output. But what rnn does is that it loops the output of this node and feeds it to the next step along with an input. It gives the ability to remember the previous steps and we dont have to go too far back to get the context or in our case the sentiment. While remembering is good there's few drawbacks as well. As the information piles up,it will be hard to keep up with it and the model becomes less effective.
+
